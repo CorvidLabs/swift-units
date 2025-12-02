@@ -25,26 +25,14 @@ let package = Package(
         .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.4.3")
     ],
     targets: [
-        .target(
-            name: "Units",
-            dependencies: [],
-            swiftSettings: [
-                .enableUpcomingFeature("StrictConcurrency")
-            ]
-        ),
+        .target(name: "Units"),
         .executableTarget(
             name: "UnitsExample",
-            dependencies: ["Units"],
-            swiftSettings: [
-                .enableUpcomingFeature("StrictConcurrency")
-            ]
+            dependencies: ["Units"]
         ),
         .testTarget(
             name: "UnitsTests",
-            dependencies: ["Units"],
-            swiftSettings: [
-                .enableUpcomingFeature("StrictConcurrency")
-            ]
+            dependencies: ["Units"]
         )
     ]
 )
