@@ -62,8 +62,7 @@ swift-units/
 │   ├── Units/
 │   │   ├── Core/
 │   │   │   ├── Unit.swift           # Protocol definition
-│   │   │   ├── Measurement.swift    # Generic measurement type
-│   │   │   └── Dimension.swift      # Base dimensions enum
+│   │   │   └── Measurement.swift    # Generic measurement type
 │   │   ├── Length/
 │   │   │   └── LengthUnit.swift     # Length units + extensions
 │   │   ├── Mass/
@@ -74,9 +73,8 @@ swift-units/
 │   │   │   └── TimeUnit.swift       # Time units + extensions
 │   │   ├── Data/
 │   │   │   └── DataUnit.swift       # Data units + extensions
-│   │   ├── Constants/
-│   │   │   └── PhysicalConstants.swift # Physical constants
-│   │   └── UnitsError.swift         # Error types
+│   │   └── Constants/
+│   │       └── PhysicalConstants.swift # Physical constants
 │   └── UnitsExample/
 │       └── main.swift               # Example executable
 └── Tests/
@@ -343,20 +341,15 @@ Task {
 
 ## Error Handling
 
-Errors are defined but conversions use Double math (no throws):
+Conversions use Double math without throwing errors. The library favors:
+- Predictable behavior with standard floating-point semantics
+- Compile-time type safety to prevent invalid unit mixing
+- Runtime tolerance for floating-point comparisons
 
-```swift
-public enum UnitsError: Error, Sendable {
-    case invalidConversion(from: String, to: String)
-    case divisionByZero
-    case invalidValue(Double)
-}
-```
-
-Currently used for:
-- Future validation features
-- User-facing error messages
-- Extension points
+Future versions may introduce optional validation for:
+- Invalid values (NaN, infinity)
+- Out-of-range conversions
+- Precision warnings
 
 ## Future Enhancements
 
@@ -404,10 +397,10 @@ Development dependencies:
 ## Platforms
 
 Minimum versions:
-- iOS 15.0+
-- macOS 12.0+
-- tvOS 15.0+
-- watchOS 8.0+
+- iOS 16.0+
+- macOS 13.0+
+- tvOS 16.0+
+- watchOS 9.0+
 - visionOS 1.0+
 
 All platforms support full feature set with no conditional compilation needed.
