@@ -1,6 +1,7 @@
 # SwiftUnits
 
-[![CI](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-units/ci.yml?label=CI&branch=main)](https://github.com/CorvidLabs/swift-units/actions/workflows/ci.yml)
+[![macOS](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-units/macOS.yml?label=macOS&branch=main)](https://github.com/CorvidLabs/swift-units/actions/workflows/macOS.yml)
+[![Ubuntu](https://img.shields.io/github/actions/workflow/status/CorvidLabs/swift-units/ubuntu.yml?label=Ubuntu&branch=main)](https://github.com/CorvidLabs/swift-units/actions/workflows/ubuntu.yml)
 [![License](https://img.shields.io/github/license/CorvidLabs/swift-units)](https://github.com/CorvidLabs/swift-units/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/CorvidLabs/swift-units)](https://github.com/CorvidLabs/swift-units/releases)
 
