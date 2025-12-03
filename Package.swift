@@ -15,10 +15,6 @@ let package = Package(
         .library(
             name: "Units",
             targets: ["Units"]
-        ),
-        .executable(
-            name: "UnitsExample",
-            targets: ["UnitsExample"]
         )
     ],
     dependencies: [
@@ -26,10 +22,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "Units"),
-        .executableTarget(
-            name: "UnitsExample",
-            dependencies: ["Units"]
-        ),
         .testTarget(
             name: "UnitsTests",
             dependencies: ["Units"]
