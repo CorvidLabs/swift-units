@@ -1,7 +1,9 @@
-/// Units of temperature measurement.
-///
-/// Temperature conversions are non-linear and require special formulas
-/// due to different zero points and scales.
+/**
+ Units of temperature measurement.
+
+ Temperature conversions are non-linear and require special formulas
+ due to different zero points and scales.
+ */
 public enum TemperatureUnit: Sendable, Hashable {
     /// Kelvin (SI base unit, absolute scale)
     case kelvin

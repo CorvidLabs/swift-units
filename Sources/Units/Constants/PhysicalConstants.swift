@@ -1,6 +1,8 @@
-/// Fundamental physical and mathematical constants.
-///
-/// All values are provided in SI units where applicable.
+/**
+ Fundamental physical and mathematical constants.
+
+ All values are provided in SI units where applicable.
+ */
 public enum PhysicalConstants {
     // MARK: - Mathematical Constants
 

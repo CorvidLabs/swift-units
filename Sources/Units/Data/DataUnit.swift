@@ -1,8 +1,10 @@
-/// Units of data/information storage measurement.
-///
-/// Supports both decimal (SI) and binary (IEC) prefixes.
-/// - Decimal: KB = 1000 bytes, MB = 1000 KB, etc.
-/// - Binary: KiB = 1024 bytes, MiB = 1024 KiB, etc.
+/**
+ Units of data/information storage measurement.
+
+ Supports both decimal (SI) and binary (IEC) prefixes.
+ - Decimal: KB = 1000 bytes, MB = 1000 KB, etc.
+ - Binary: KiB = 1024 bytes, MiB = 1024 KiB, etc.
+ */
 public enum DataUnit: Sendable, Hashable {
     /// Bytes (base unit)
     case bytes

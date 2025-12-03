@@ -1,7 +1,9 @@
-/// A generic measurement combining a numeric value with a unit.
-///
-/// `Measurement` provides a type-safe way to work with physical quantities,
-/// enabling seamless conversions between different units of the same type.
+/**
+ A generic measurement combining a numeric value with a unit.
+
+ `Measurement` provides a type-safe way to work with physical quantities,
+ enabling seamless conversions between different units of the same type.
+ */
 public struct Measurement<UnitType: Unit>: Sendable {
     /// The numeric value of the measurement.
     public let value: Double
@@ -9,18 +11,22 @@ public struct Measurement<UnitType: Unit>: Sendable {
     /// The unit of the measurement.
     public let unit: UnitType
 
-    /// Creates a new measurement with the specified value and unit.
-    /// - Parameters:
-    ///   - value: The numeric value.
-    ///   - unit: The unit of measurement.
+    /**
+     Creates a new measurement with the specified value and unit.
+     - Parameters:
+       - value: The numeric value.
+       - unit: The unit of measurement.
+     */
     public init(value: Double, unit: UnitType) {
         self.value = value
         self.unit = unit
     }
 
-    /// Converts this measurement to another unit.
-    /// - Parameter targetUnit: The unit to convert to.
-    /// - Returns: A new measurement in the target unit.
+    /**
+     Converts this measurement to another unit.
+     - Parameter targetUnit: The unit to convert to.
+     - Returns: A new measurement in the target unit.
+     */
     public func converted(to targetUnit: UnitType) -> Measurement<UnitType> {
         let convertedValue = unit.convert(value, to: targetUnit)
         return Measurement(value: convertedValue, unit: targetUnit)
