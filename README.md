@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/CorvidLabs/swift-units)](https://github.com/CorvidLabs/swift-units/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/CorvidLabs/swift-units)](https://github.com/CorvidLabs/swift-units/releases)
 
+> **Pre-1.0 Notice**: This library is under active development. The API may change between minor versions until 1.0.
+
 A comprehensive, type-safe unit conversion library for Swift 6, featuring elegant numeric extensions and zero external dependencies.
 
 ## Features
