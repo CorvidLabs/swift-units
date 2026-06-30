@@ -27,6 +27,7 @@ A comprehensive, type-safe unit conversion library for Swift 6, featuring elegan
 - tvOS 16.0+
 - watchOS 9.0+
 - visionOS 1.0+
+- Linux
 
 ## Installation
 
@@ -36,7 +37,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/0xLeif/swift-units.git", from: "0.1.0")
+    .package(url: "https://github.com/CorvidLabs/swift-units.git", from: "0.1.0")
 ]
 ```
 
