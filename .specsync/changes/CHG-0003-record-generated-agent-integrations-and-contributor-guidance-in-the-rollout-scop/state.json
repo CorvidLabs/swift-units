@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0003-record-generated-agent-integrations-and-contributor-guidance-in-the-rollout-scop",
+  "slug": "record-generated-agent-integrations-and-contributor-guidance-in-the-rollout-scop",
+  "title": "Record generated agent integrations and contributor guidance in the rollout scope",
+  "description": "Record generated agent integrations and contributor guidance in the rollout scope",
+  "kind": "documentation",
+  "state": "accepted",
+  "canonical_applied": true,
+  "base_commit": "6ec1ca2b3503f54b74b4beaeac81ac4b6da9a568",
+  "created_at": 1783990004,
+  "updated_at": 1783990110,
+  "affected_specs": [],
+  "affected_paths": [
+    ".claude/",
+    ".cursor/",
+    ".codex/",
+    ".gemini/",
+    "README.md"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "These are generated agent instructions and existing contributor guidance; recording their rollout scope does not change the Units API or runtime behavior",
+  "acceptance_criteria": [
+    "All four SpecSync agent integrations remain installed; README guidance remains accurate; strict SpecSync passes at 100%; native verification passes; no Sources or Tests files change."
+  ],
+  "selected_artifacts": [
+    "context",
+    "docs",
+    "design",
+    "tasks"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "public_contract": "no"
+  }
+}

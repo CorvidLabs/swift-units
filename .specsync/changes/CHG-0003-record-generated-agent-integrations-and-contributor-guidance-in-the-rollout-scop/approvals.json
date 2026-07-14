@@ -1,0 +1,19 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783990046,
+      "digest": "7366691d6ac548f9a318753f588a783a340b6b92269a3e94c8d28e900841a3d3",
+      "note": "Approved the complete non-semantic documentation scope after reviewing all generated guidance paths."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783990110,
+      "digest": "422007f3d6daad3c21b58b5c1bb4f01231c4e367d8b3523fabc0baa2ebc37b29",
+      "note": "Accepted after native verification passed 75 tests and strict coverage remained complete with no product edits."
+    }
+  ],
+  "reopenings": []
+}
