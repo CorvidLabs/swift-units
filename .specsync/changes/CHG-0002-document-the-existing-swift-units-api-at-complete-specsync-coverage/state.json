@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0002-document-the-existing-swift-units-api-at-complete-specsync-coverage",
+  "slug": "document-the-existing-swift-units-api-at-complete-specsync-coverage",
+  "title": "Document the existing Swift Units API at complete SpecSync coverage",
+  "description": "Document the existing Swift Units API at complete SpecSync coverage",
+  "kind": "documentation",
+  "state": "accepted",
+  "canonical_applied": true,
+  "base_commit": "2f0532730027acf50b93ff550a6dfcc9602d9806",
+  "created_at": 1783989543,
+  "updated_at": 1783989867,
+  "affected_specs": [
+    "units"
+  ],
+  "affected_paths": [
+    "Sources/",
+    "Tests/",
+    "specs/units",
+    ".trust.toml",
+    ".specsync/sdd.json"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "A stable Units companion maps all eight Swift implementation files and every parsed public export; strict SpecSync passes at 100% file and LOC coverage; no Sources or Tests files change; the native build and complete test suite pass."
+  ],
+  "selected_artifacts": [
+    "context",
+    "docs",
+    "design",
+    "tasks",
+    "testing"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "public_contract": "no"
+  }
+}

@@ -5,10 +5,11 @@
   "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for swift-units",
   "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for swift-units",
   "kind": "migration",
-  "state": "draft",
+  "state": "accepted",
+  "canonical_applied": true,
   "base_commit": "5ada1eba41c97b2e0bc4eccdd5bda6b5c73a50be",
   "created_at": 1783886362,
-  "updated_at": 1783886370,
+  "updated_at": 1783989907,
   "affected_specs": [],
   "affected_paths": [
     "Sources/",

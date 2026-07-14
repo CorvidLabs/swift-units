@@ -5,9 +5,9 @@ artifact: tasks
 
 # Tasks
 
-- [x] Adopt SpecSync 5.0.1 at advisory zero.
+- [x] Configure SpecSync 5.0.1 lifecycle enforcement.
 - [x] Install all four agents.
 - [x] Add Trust, Augur, Attest, and native Fledge verification.
 - [x] Preserve existing repository behavior and workflows.
-- [ ] Record definition approval.
-- [ ] Record verification and closing approval.
+- [x] Prepare the native build and test lane used by closing verification.
+- [x] Confirm the migration contains no product-source edits.

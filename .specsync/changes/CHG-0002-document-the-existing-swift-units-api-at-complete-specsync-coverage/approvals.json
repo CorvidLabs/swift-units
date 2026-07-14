@@ -1,0 +1,19 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783989713,
+      "digest": "1a325b8727edff47d63d435fb6d938ac417300b0adf1155962096eeeb27178ab",
+      "note": "Approved after reviewing the complete eight-file API inventory, accurate requirements, and native test mapping."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783989867,
+      "digest": "4e919d2cd6b98df28cae5c0a567eb7a5ce753fe2d736ec02668a64f437439183",
+      "note": "Accepted after native verification passed 75 tests in 7 suites and strict SpecSync confirmed 111/111 exports with 100% file and LOC coverage."
+    }
+  ],
+  "reopenings": []
+}
