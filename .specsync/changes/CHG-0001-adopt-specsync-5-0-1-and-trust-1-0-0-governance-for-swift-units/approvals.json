@@ -1,0 +1,19 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783989538,
+      "digest": "45ac1ed8ce932a568dd5a61958ab2738040193f75a40ad6e0751990a141f05ec",
+      "note": "Approved the complete governance-only migration definition after reviewing the preserved workflows, immutable pins, and native verification lane."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783989907,
+      "digest": "47c39b7f9273cc807c9197c37082d425d72838868e77b936f1aca008d928ed81",
+      "note": "Accepted after native verification passed 75 tests on the final governance-only delivery with complete 100% SpecSync coverage."
+    }
+  ],
+  "reopenings": []
+}
